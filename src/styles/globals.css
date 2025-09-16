@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+  background: #DC0A2D;
+  background: radial-gradient(circle,rgba(220, 10, 45, 1) 0%, rgba(189, 9, 39, 1) 100%);
+}
+
+nav {
+  background-color: white;
+}
+
+.filters {
+  background-color: white;
+}
+
+.fire {
+  background-color: #f42;
+  color: #ffffff;
+}
+
+.water {
+  background-color: #39f;
+}
+
+.electric {
+  background-color: #fc3;
+}
+
+.grass {
+  background-color: #7c5;
+}
+
+.ice {
+  background-color: #6cf;
+}
+
+.fighting {
+  background-color: #b54;
+}
+
+.poison {
+  background-color: #a59;
+}
+
+.normal {
+  background-color: #aa9;
+}
+
+.ground {
+  background-color: #db5;
+}
+
+.flying {
+  background-color: #89f;
+}
+
+.psychic {
+  background-color: #f59;
+}
+
+.bug {
+  background-color: #ab2;
+}
+
+.rock {
+  background-color: #ba6;
+}
+
+.ghost {
+  background-color: #66b;
+}
+
+.dragon {
+  background-color: #76e;
+}
+
+.dark {
+  background-color: #754;
+}
+
+.steel {
+  background-color: #aab;
+}
+
+.fairy {
+  background-color: #e9e;
+}
+
+.stellar {
+  background-color: gold;
+}
+
+.shadow {
+  background-color: gray;
+}
+
+.unknown {
+  background-color: darkred;
+}
+
+.pokeball {
+  animation: spin 1s linear infinite;
+  height: 50px;
+  width: 50px;
+  text-emphasis: center;
+}
