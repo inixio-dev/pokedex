@@ -23,7 +23,7 @@ Una Pokédex web construida con Next.js y React, que permite buscar, filtrar y e
 
 ## Tecnologías
 
-- [T3 Stack](https://create.t3.gg/) (Sin API REST ni Prisma, pero en un futuro podría montarse un pequeño middleware entre la Pokédex y PokéApi)
+- [T3 Stack](https://create.t3.gg/) (Creado con npm create t3-app@latest pero sin API REST ni Prisma ya que la prueba técnica no requería de un backend, pero en un futuro podría implementarse un pequeño middleware entre la Pokédex y PokéApi)
 - [Next.js](https://nextjs.org/)
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
